@@ -130,6 +130,7 @@
      font-weight: bold;
  }
 
+
  .btn:hover {
      background: blueviolet;
      color: #fff;
@@ -153,7 +154,7 @@
 
  .btn {
      height: 50px;
-     width: 120px;
+     width: 150px;
      background-color: whitesmoke;
  }
 

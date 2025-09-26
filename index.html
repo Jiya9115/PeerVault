@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PeerVault - Campus Marketplace</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header id="headerBar">
     <img src="logo.png">
@@ -18,23 +20,25 @@
   </header>
 
   <nav id="navBar">
-  <div class="menu-toggle" id="menuToggle">&#9776;</div> <!-- Hamburger icon -->
-  <div class="menu-links" id="menuLinks">
-    <button onclick="showPage('home')">Home</button>
-    <button onclick="showPage('books')">Books</button>
-    <button onclick="showPage('notes')">Notes</button>
-    <button onclick="showPage('lab')">Lab Equipment</button>
-    <button id="sellBtn" class="hidden" onclick="showPage('add')">Sell Item</button>
-    <button id="soldBtn" class="hidden" onclick="showPage('sold')">Sold Items</button>
-  </div>
-</nav>
+    <div class="menu-toggle" id="menuToggle">&#9776;</div> <!-- Hamburger icon -->
+    <div class="menu-links" id="menuLinks">
+      <button onclick="showPage('home')">Home</button>
+      <button onclick="showPage('books')">Books</button>
+      <button onclick="showPage('notes')">Notes</button>
+      <button onclick="showPage('lab')">Lab Equipment</button>
+      <button id="sellBtn" class="hidden" onclick="showPage('add')">Sell Item</button>
+      <button id="soldBtn" class="hidden" onclick="showPage('sold')">Sold Items</button>
+    </div>
+  </nav>
 
 
   <div class="container">
     <!-- Home -->
     <section id="homePage">
       <h2>Welcome to PeerVault</h2>
-      <p>PeerVault is a smart campus marketplace designed exclusively for students to <b style="color:white">buy</b> and <b style="color:white">sell books, notes, and lab equipment</b> with ease. The platform provides a secure space where students can sign up, list their resources, and connect directly with buyers through email.</p>
+      <p>PeerVault is a smart campus marketplace designed exclusively for students to <b style="color:white">buy</b> and
+        <b style="color:white">sell books, notes, and lab equipment</b> with ease. The platform provides a secure space
+        where students can sign up, list their resources, and connect directly with buyers through email.</p>
     </section>
 
     <!-- Available -->
@@ -65,9 +69,13 @@
         <input type="text" id="desc" placeholder="Description" required>
         <input type="number" id="price" placeholder="Price (₹)" required>
         <input type="email" id="email" placeholder="Your Email (for buyers)" required>
+
         <button type="submit">Add Item</button>
       </form>
+
     </section>
+
+
 
     <!-- Sold Items -->
     <section id="soldPage" class="hidden">
@@ -99,16 +107,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-

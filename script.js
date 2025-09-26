@@ -107,6 +107,8 @@
       showPage(cat);
     };
 
+    
+
     // Render items
     function renderItems() {
       ["books","notes","lab"].forEach(cat => {
@@ -144,6 +146,8 @@
                 }
               };
               card.appendChild(btn);
+
+              
 
               // Mark as Sold (only seller)
               if(currentUser && currentUser === item.seller) {
@@ -208,3 +212,4 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
